@@ -40,7 +40,7 @@ time.sleep(random.uniform(4, 7))
 
 job_urls = []
 seen = set()
-MAX_CLICKS = 3  # 3 clicks = 150 additional cards
+MAX_CLICKS = 1  # 3 clicks = 150 additional cards
 
 for click_count in range(MAX_CLICKS):
     # Scroll to bottom to make "Suivant" button visible
