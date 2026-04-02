@@ -122,7 +122,7 @@ print(f"✅ Remaining job URLs to scrape: {len(job_urls)}")
 # PHASE 2 — SCRAPE EACH JOB PAGE
 # ─────────────────────────────────────────────
 options2 = Options()
-# options2.add_argument("--headless=new")
+options2.add_argument("--headless=new")
 options2.add_argument("--disable-gpu")
 options2.add_argument("--no-sandbox")
 options2.add_argument("--disable-dev-shm-usage")
